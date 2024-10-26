@@ -219,7 +219,17 @@ int deposit(client *data,int person){
             printf("\n\nHow much do you want to deposit? ");
             scanf("%f",&balance);
             getchar();
-            data[i].balance=balance;//Deposit in the "data base"
+            if(balance<0)  {//Check if the action was valid
+                printf("\nOperation performed without success...\n\n");
+                Sleep(2000);
+
+                    printf("\n\nInvalid deposit\n\n");
+                    printf("Press any key to continue...");
+                    getche();
+                    return 0;
+
+            }
+            data[i].balance+=balance;//Deposit in the "data base"
 
             printf("\nDeposit made successfully!!!\n\n");
             printf("Press any key to continue...");
