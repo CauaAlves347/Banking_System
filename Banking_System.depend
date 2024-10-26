@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1729883794 source:c:\users\ufca\downloads\banking_system\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1729816647 source:c:\users\maria\downloads\banking_system\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1729901917 source:c:\users\maria\downloads\cauã\projetos\banking_system_(iincomplet_version)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1729953935 source:c:\users\maria\downloads\cauã\projetos\banking_system_(complet_version)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
